@@ -348,3 +348,27 @@ section {
     text-transform: capitalize;
     padding: .5rem 0;
 }
+
+footer {
+    align-items: center;
+    padding: 2rem 0;
+    background-color: #384F63;
+}
+
+.footer {
+    color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cright p{
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.social i {
+    padding: 0 .5rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
