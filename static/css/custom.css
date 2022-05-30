@@ -278,3 +278,73 @@ section {
 
 
 /* CONTACT  */
+
+.loc-details {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 1.5rem;
+}
+
+.icon i {
+    font-size: 2.5rem;
+    color: var(--pri-color);
+}
+
+.icon-details {
+    line-height: .75rem;
+    padding: .75rem 0;
+}
+
+.p1 .p2 {
+    font-weight: lighter;
+}
+
+.loc-form {
+    padding: 1.3rem 0;
+}
+
+.input-data input {
+    width: 80%;
+    padding: .3rem .75rem;
+    background: none;
+    border: 1px solid var(--pri-color);
+    margin: .75rem 0;
+    outline: none;
+}
+
+.input-data textarea {
+    width: 80%;
+    padding: 0 .3rem;
+    background: none;
+    border: 1px solid var(--pri-color);
+    outline: none;
+    height: 5rem;
+}
+
+.btn-submit {
+    padding: .5rem 3rem;
+    color: #fff;
+    background-color: var(--pri-color);
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    letter-spacing: .1rem;
+    margin: 1.5rem 0 0 0;
+}
+
+ iframe {
+    width: 100%;
+    height: 300px;
+}
+
+.get-in-touch {
+    font-size: 2rem;
+    text-transform: capitalize;
+    padding: .5rem 0;
+}
