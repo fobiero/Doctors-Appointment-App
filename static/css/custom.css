@@ -5,10 +5,19 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 :root {
     --pri-color:#51B0F6;
+}
+
+nav {
+    padding: .5rem 0;
+}
+
+.section-title {
+    text-align: center;
 }
 
 .tle {
@@ -57,4 +66,62 @@
 
 .btn-book:hover {
     color: inherit;
+}
+
+/* TEAM  */
+.team {
+    padding: 3rem 0;
+}
+
+.section-header {
+    font-size: 3rem;
+    font-weight: 400;
+    padding: .5rem 0;
+    letter-spacing: .1rem;
+}
+
+.section-descr {
+    font-weight: 200;
+    font-size: 1.2rem;
+}
+
+.item {
+    padding: 1rem 0;
+}
+
+.item-thumbnail {
+    width: 100%;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.item-thumbnail img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+
+.item-data {
+    padding: 1rem 0;
+    text-align: center;
+}
+.item-data-name h5{
+    font-size: 2rem;
+}
+
+.item-data-role h6 {
+    color: var(--pri-color);
+    font-size: 1.2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+}
+.item-data-social i {
+    padding: 0 .3rem;
+    cursor: pointer;
+    font-size: 1.2rem;
+}
+
+.item-data-social i:hover {
+    color: var(--pri-color);
 }
