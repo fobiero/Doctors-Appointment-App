@@ -1,16 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,300;0,400;1,500&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
-main {
-    width: 100%;
-    padding: 80rem 0;
-    max-height: 300vh;
-    height: auto;
-    background-image: url('../images/hero-bg.jpg');
+:root {
+    --pri-color:#51B0F6;
+}
+
+.tle {
+    color:var(--pri-color);
+    font-weight: 400;
+    letter-spacing: .1rem;
+}
+
+.hero {
+    color: #fff;
+    padding: 5rem 0;
+    background-image: url('../images/dk-img-2.jpg');
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
+    align-items: center;
+    background-attachment: fixed;
+}
+
+.page-intro {
+    padding: 8rem 0;
+}
+
+.tag-header {
+    font-weight: 400;
+    font-size: 3rem;
+}
+
+.tag-descr {
+    padding: .75rem 0;
+    font-weight: lighter;
+    font-size: 1.1rem;
+}
+
+.btn-book {
+    color: #fff;
+    background-color: transparent;
+    padding: .45rem 2rem;
+    border: 1px solid #fff;
+    border-radius: 2rem;
+    margin: 1rem 0;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.btn-book:hover {
+    color: inherit;
 }
