@@ -9,7 +9,13 @@
 }
 
 :root {
+    --bg-color:#F4F4F4;
     --pri-color:#51B0F6;
+    --box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+body {
+    background-color: var(--bg-color);
 }
 
 nav {
@@ -132,9 +138,15 @@ section {
 
 /* SERVICE  */
 
-.section-card {
+
+.services {
+    padding: 5rem 0;
+}
+
+.service-card {
+    margin: 2rem 0;
     background-color: #fff;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    box-shadow: var(--box-shadow);
 }
 
 .service-card-header img{
@@ -263,3 +275,6 @@ section {
 .owl-theme .owl-controls.clickable .owl-page:hover span{
     background: var(--pri-color);
 }
+
+
+/* CONTACT  */
