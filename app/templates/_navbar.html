@@ -2,18 +2,20 @@
 
 <nav id="navbar_top" class="navbar navbar-expand-lg bg-light">
     <div class="container">
-       <a class="navbar-brand" href="/index.html"><img src="assets/images/Logo.png" alt=""></a>
+       <a class="navbar-brand" href="{% url 'index' %}">Docta <span class="tle">_Who</span></a>
      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main_nav"  aria-expanded="false" aria-label="Toggle navigation">
          <span class="navbar-toggler-icon"></span>
        </button>
      <div class="collapse navbar-collapse" id="main_nav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="/">Home </a></li>
-          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#service">Service</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="/">Home </a></li> -->
+          <li class="nav-item"><a class="nav-link" href="#team">Our Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#service">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonial">Testimonial</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#manage">Manage</a></li>
         </ul>
-        <a href="#about"><button class="btn-quote" id="btn-quote">get quote</button></a>
+        <span class="appointment" id="appointments"><i class="fa-solid fa-bell"></i></span>        
      </div> 
     </div> 
    </nav>
